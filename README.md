@@ -2,6 +2,9 @@
 
 [![GitHub issues](https://img.shields.io/github/issues/GiantTreeLP/nimses-adimate.svg)](https://github.com/GiantTreeLP/nimses-adimate/issues)
 [![GitHub stars](https://img.shields.io/github/stars/GiantTreeLP/nimses-adimate.svg)](https://github.com/GiantTreeLP/nimses-adimate/stargazers)
+[![PyPI](https://img.shields.io/pypi/v/nimses-adimate.svg)](https://pypi.org/project/nimses-adimate/)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nimses-adimate.svg)
+![PyPI - Status](https://img.shields.io/pypi/status/nimses-adimate.svg)
 
 
 This script automatically clicks ads in the Nimses Android app.
