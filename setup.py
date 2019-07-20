@@ -17,11 +17,11 @@ setup(
     python_requires='>=3',
     include_package_data=True,
     classifiers=[
-        "DEVELOPMENT STATUS :: 4 - BETA",
-        "ENVIRONMENT :: CONSOLE",
-        "LICENSE :: OSI APPROVED :: MIT LICENSE",
-        "PROGRAMMING LANGUAGE :: PYTHON :: 3.7",
-        "TOPIC :: HOME AUTOMATION"
+        "Development Status :: 4 - Beta",
+        "Environment :: Console",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3.7",
+        "Topic :: Home Automation"
     ],
     install_requires=[
         'opencv-python',
