@@ -1,0 +1,3 @@
+include nimses-adimate/platform-tools/*
+include NOTICE
+include LICENSE
