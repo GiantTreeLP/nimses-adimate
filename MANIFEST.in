@@ -1,3 +1,4 @@
+include nimses-adimate/templates/*
 include nimses-adimate/platform-tools/*
 include NOTICE
 include LICENSE

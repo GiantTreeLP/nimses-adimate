@@ -1,6 +1,7 @@
 import logging
 from concurrent.futures import Future
 from concurrent.futures.thread import ThreadPoolExecutor
+from pathlib import Path
 from time import time, sleep, strftime, localtime
 from typing import Tuple
 
@@ -22,7 +23,7 @@ NIMSES_AD_ACTIVITIES = (
     "com.ironsource.sdk.controller.ControllerActivity"
 )
 
-TEMPLATE_AD_IMAGE = cv2.imread("templates/ads_inline_fhd_de.png", cv2.IMREAD_GRAYSCALE)
+TEMPLATE_AD_IMAGE = cv2.imread(str(Path(__file__).parent) + "/templates/ads_inline_fhd_de.png", cv2.IMREAD_GRAYSCALE)
 
 logger = logging.getLogger("NAD")
 
