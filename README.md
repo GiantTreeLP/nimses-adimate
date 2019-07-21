@@ -9,7 +9,7 @@
 
 This script automatically clicks ads in the Nimses Android app.
 
-Simply launch the `nimses.py` script and follow the instructions.
+Simply launch the `nimses-adimate` module (`__main__.py` file) and follow the instructions.
 They will guide you through connecting your Android Smartphone to your PC.  
 First it needs to be connected through USB to switch to networked mode and then use WiFi
 for the rest of the process.
