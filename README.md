@@ -26,6 +26,22 @@ just keep your phone charging the whole time and don't worry about the power con
 
 You should also enable "Stay awake" to make sure your device doesn't lock itself. 
 
+## Running
+
+If you are just interested in running this application, run the following commands
+depending on the way you like to use this application.
+
+### PyPi
+
+    pip install nimses-adimate
+    python -m nimses-adimate
+
+### Git
+
+    git clone https://github.com/GiantTreeLP/nimses-adimate
+    pip install -r requirements.txt
+    python -m nimses-adimate
+
 ## Dependencies
 
 This script uses the following libraries:
