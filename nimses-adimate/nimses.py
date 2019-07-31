@@ -131,6 +131,7 @@ def handle_new_ad(ad: Tuple[Tuple[int, int], np.ndarray], device: AdbDevice, sta
                 dx = w // 2
                 dy = h // 4 * 1
                 device.swipe(sx, sy, dx, dy, 1.0)
+                logger.info("Scrolled from %d %d to %d %d", sx, sy, dx, dy)
         elif app["activity"] in NIMSES_AD_ACTIVITIES:
             if state["ad_closed"]:
                 state["ad_time"] = time() + 35

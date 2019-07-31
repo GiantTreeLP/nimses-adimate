@@ -2,6 +2,7 @@ from adbutils import AdbDevice
 
 
 def send_raw(device: AdbDevice, command: str, buffer_size=1024) -> bytes:
+    # noinspection PyProtectedMember
     with device._client._connect() as c:
         c.send("host:transport:" + device.serial)
         c.check_okay()
